@@ -1,0 +1,37 @@
+// Root styles into. scss
+
+$card-bg: #1c531d;
+$card-button: #238ab8;
+$text-light: #ffffff;
+$font-family: "Open Sans", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  background: #1a1a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: $text-light;
+}
+
+.game-container {
+  background: #16213e;
+  padding: 2rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 420px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
